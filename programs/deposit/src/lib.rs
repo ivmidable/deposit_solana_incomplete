@@ -295,5 +295,5 @@ impl Limit {
 }
 
 impl Asset {
-    const LEN: usize = 32 + 32 + 32;
+    const LEN: usize = 32 + OPTION_PUBKEY_LEN * 2;
 }
